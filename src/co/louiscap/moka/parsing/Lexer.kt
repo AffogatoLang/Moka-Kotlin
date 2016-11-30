@@ -71,7 +71,7 @@ class Lexer(val rules: Collection<LexicalRule>, val settings: Settings = Setting
 
         var index = 0
         var prevIndex: Int
-        var slice = src
+        var slice: String
         var match: MatchResult?
 
         while (index < src.length) {
