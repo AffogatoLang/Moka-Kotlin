@@ -1,17 +1,23 @@
-import co.louiscap.moka.domain.LexicalRule
-import co.louiscap.moka.io.FileReader
 import co.louiscap.moka.io.LexReader
-import co.louiscap.moka.io.MockReader
-import co.louiscap.moka.io.files.LexicalFile
+import co.louiscap.moka.modules.Semver
 import co.louiscap.moka.parsing.Lexer
 
 fun main(args: Array<String>) {
-    val reader = LexReader("examples/simple.lex")
+    val reader = LexReader("examples/json.lex")
     val rules = reader.load().rules
 
     val lexer = Lexer(rules)
 
+    println(Semver.parse("*"))
+    println(Semver.parse("7.0.1"))
+    println(Semver.parse("^5.4"))
+
     lexer.lex("""
-let my_func eq 143
+{
+    "user": "root",
+    "password": "password",
+    "development": true,
+    "parts": ["a", 59, "c"]
+}
 """.trim()).forEach(::println)
 }

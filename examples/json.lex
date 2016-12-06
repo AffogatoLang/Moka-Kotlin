@@ -1,0 +1,10 @@
+10 : T_BLOCK_START : \{
+10 : T_BLOCK_END : }
+10 : T_DELIM : \:
+10 : T_SEP : ,
+10 : T_ARRAY_START : \[
+10 : T_ARRAY_END : ]
+20 : T_TRUE : true
+20 : T_FALSE : false
+30 : T_STRING : "(.*?(?<!\\))"
+30 : T_NUMBER : \d+(?>\.\d+)?
