@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79af54f6-86c8-4b84-b685-857b3cb021c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/json.lex" afterPath="$PROJECT_DIR$/examples/json.lex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moka-koltin.iml" afterPath="$PROJECT_DIR$/moka-koltin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Moka.kt" afterPath="$PROJECT_DIR$/src/Moka.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/io/LexReader.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/io/LexReader.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/io/files/LexicalFile.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/io/files/LexicalFile.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/modules/Module.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/modules/Module.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/parsing/Lexer.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/parsing/Lexer.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/louiscap/moka/parsing/exceptions/InvalidSequenceException.kt" afterPath="$PROJECT_DIR$/src/co/louiscap/moka/parsing/exceptions/InvalidSequenceException.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +32,8 @@
       <file leaf-file-name="Module.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/Module.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,6 +44,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
               <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidSequenceException.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/parsing/exceptions/InvalidSequenceException.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Semver.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -59,8 +82,28 @@
       <file leaf-file-name="MockReader.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="253">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidSemverException.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/exceptions/InvalidSemverException.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="81" lean-forward="false" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LexicalToken.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalToken.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="115" lean-forward="false" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -76,55 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Moka.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Moka.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="json.lex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/json.lex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LexicalRule.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lexer.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/parsing/Lexer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="95" column="20" lean-forward="false" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-              <folding>
-                <element signature="e#34#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.editorconfig">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -162,20 +161,21 @@
         <option value="$PROJECT_DIR$/src/co/louiscap/json/JsonValue.kt" />
         <option value="$PROJECT_DIR$/src/co/louiscap/io/MockReader.kt" />
         <option value="$PROJECT_DIR$/src/co/louiscap/modules/Semver.kt" />
-        <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt" />
         <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/FileReader.kt" />
-        <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/files/LexicalFile.kt" />
         <option value="$PROJECT_DIR$/examples/simple.lex" />
-        <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/LexReader.kt" />
         <option value="$PROJECT_DIR$/src/co/louiscap/moka/modules/exceptions/InvalidSemverException.kt" />
-        <option value="$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt" />
-        <option value="$PROJECT_DIR$/src/Moka.kt" />
         <option value="$PROJECT_DIR$/examples/json.lang" />
-        <option value="$PROJECT_DIR$/src/co/louiscap/moka/modules/Module.kt" />
-        <option value="$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt" />
         <option value="$PROJECT_DIR$/examples/json.lex" />
         <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt" />
         <option value="$PROJECT_DIR$/src/co/louiscap/moka/parsing/Lexer.kt" />
+        <option value="$PROJECT_DIR$/src/Moka.kt" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/LexReader.kt" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/io/files/LexicalFile.kt" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/modules/Module.kt" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/parsing/exceptions/InvalidSequenceException.kt" />
+        <option value="$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt" />
       </list>
     </option>
   </component>
@@ -257,6 +257,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="parsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moka-Kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moka-koltin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1215,12 +1241,12 @@
       <workItem from="1481201398520" duration="694000" />
       <workItem from="1481222319415" duration="92000" />
       <workItem from="1484432627608" duration="83000" />
-      <workItem from="1484432724487" duration="1458000" />
+      <workItem from="1484432724487" duration="1623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48776000" />
+    <option name="totallyTimeSpent" value="48941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
@@ -1535,14 +1561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalToken.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="115" lean-forward="false" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1564,22 +1582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="68" lean-forward="false" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/exceptions/InvalidSemverException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="81" lean-forward="false" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/json.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1588,35 +1590,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/parsing/exceptions/InvalidSequenceException.kt">
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt">
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="322">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/files/LexicalFile.kt">
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/parsing/Lexer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/LexReader.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="431">
+          <caret line="95" column="20" lean-forward="false" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+          <folding>
+            <element signature="e#34#188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1632,8 +1628,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/json.lex">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/LexReader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/MockReader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/io/files/LexicalFile.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1648,34 +1668,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/Module.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/parsing/exceptions/InvalidSequenceException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/Semver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/modules/exceptions/InvalidSemverException.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="81" lean-forward="false" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/parsing/Lexer.kt">
+    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalToken.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="95" column="20" lean-forward="false" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-          <folding>
-            <element signature="e#34#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/louiscap/moka/domain/LexicalRule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="115" lean-forward="false" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
           <folding />
         </state>
       </provider>
