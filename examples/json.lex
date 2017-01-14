@@ -1,6 +1,6 @@
 10 : TBLOCK_START : \{
 10 : TBLOCK_END : }
-10 : TDELIM : \:
+10 : TDELIM : :
 10 : TSEP : ,
 10 : TARRAY_START : \[
 10 : TARRAY_END : ]

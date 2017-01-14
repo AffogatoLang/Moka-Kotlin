@@ -64,7 +64,7 @@ class Lexer(val rules: Collection<LexicalRule>, val settings: Settings = Setting
         return res.value.length
     }
 
-    public fun lex(src: String): List<LexicalToken> {
+    fun lex(src: String): List<LexicalToken> {
         val sorted = rules.sortedBy { it.priority }
         val tokens = mutableListOf<LexicalToken>()
         val newlines = getAllNewlines(src)
